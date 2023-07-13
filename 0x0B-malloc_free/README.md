@@ -54,14 +54,13 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Each argument should be followed by a \n in the new string  
 
 ##6. I will show you how great I am
-#advanced
-Score: 0.0% (Checks completed: 0.0%)
-Write a function that splits a string into words.
 
-Prototype: char **strtow(char *str);
-The function returns a pointer to an array of strings (words)
-Each element of this array should contain a single word, null-terminated
-The last element of the returned array should be NULL
-Words are separated by spaces
-Returns NULL if str == NULL or str == ""
-If your function fails, it should return NULL
+- Write a function that splits a string into words.
+
+- Prototype: char **strtow(char *str);
+- The function returns a pointer to an array of strings (words)
+- Each element of this array should contain a single word, null-terminated
+- The last element of the returned array should be NULL
+- Words are separated by spaces
+- Returns NULL if str == NULL or str == ""
+- If your function fails, it should return NULL
